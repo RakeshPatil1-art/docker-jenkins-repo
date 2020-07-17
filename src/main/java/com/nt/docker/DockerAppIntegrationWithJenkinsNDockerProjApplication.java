@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class DockerAppIntegrationWithJenkinsNDockerProjApplication {
 	
 	
-	@GetMapping("Wish")
+	@GetMapping("/Wish")
 	public String wishMsg() {
 		return "Good Morning";
 	}
